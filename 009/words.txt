@@ -1,0 +1,7 @@
+word      1
+words     1
+wordy     2
+wordier   3
+wordily   3
+wordiest  3
+wordiness 3
