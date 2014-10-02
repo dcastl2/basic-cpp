@@ -6,8 +6,8 @@ using namespace std;
 
 int half_steps(string note) {
 	int n, offset=0;
-	if (note[0]>='B') offset++;             // No semitone between B and C
-	if (note[0]>='E') offset++;             // No semitone between E and F
+	if (note[0]>'B') offset++;             // No semitone between B and C
+	if (note[0]>'E') offset++;             // No semitone between E and F
 	n = (note[0] - 'A')*2 - offset;
 	int i = 1;                              // Index counter
 	     if (note[1] == 'b') { i++; n--; }  // Account for flats/sharps
