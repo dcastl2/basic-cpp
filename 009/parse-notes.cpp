@@ -9,7 +9,7 @@ int half_steps(string note) {
 	int i = 1;
 	     if (note[1] == 'b') { i++; n--; }
 	else if (note[1] == '#') { i++; n++; }
-	n += (note[i] - '4')*7*2;
+	n += (note[i] - '4')*12;
 	return n;
 }
 
