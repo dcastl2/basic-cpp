@@ -9,14 +9,12 @@ string symbol (string n) {
 	string   name, symbol;
 	ifstream infile;
 	infile.open("ions.dat");
-	if (infile) {
+	if (infile) 
 		while (infile >> name 
 			      >> symbol 
-			      >> charge) {
+			      >> charge) 
 			if (n == name)
 				return symbol;
-		}
-	}
 	cout << '`' << n << "' was not found." << endl;
 	exit(1);
 }

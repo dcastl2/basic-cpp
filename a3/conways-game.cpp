@@ -17,6 +17,7 @@ bool empty(bool x[M][N]) {
 }
 
 void clean_board(bool x[M][N]) {
+	// TODO: 
 }
 
 void print_board(bool x[M][N]) {
@@ -46,7 +47,7 @@ void next_board(bool x[M][N]) {
 	    }
 	}
 
-	// Compute new board
+	// TODO: Compute new board
 }
 
 int main() {
@@ -55,13 +56,13 @@ int main() {
 	int  i, j; 
 	bool x[M][N];
 
-	// Initialize board here
+	// TODO: Initialize board here
 	
 	print_board(x);
 	usleep(1000000);
 	int k = 1;
 	while (true) {
-	        // Evolve the board here
+	        // TODO: Evolve the board here
 	}	
 
 	return 0;
