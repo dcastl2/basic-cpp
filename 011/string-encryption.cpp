@@ -21,13 +21,13 @@ void show(string a, int n, int x, int y) {
 		if (i==x || i==y) cout << '^'  << ' ';
 		else              cout << ' '  << ' ';
 	cout << flush;
-	usleep(1.0/4*pow(10,6));
+	usleep(pow(10,6));
 }
 
 int main() {
 
 	string s = "CASTLEBERRY";
-	int i, j, k, l, n=11;
+	int i, j, n=11;
 
 	for (i=0; i<n; i++) {
 		j = ((i + 2) * 3) % n;

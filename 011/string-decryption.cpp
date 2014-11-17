@@ -21,7 +21,7 @@ void show(string a, int n, int x, int y) {
 		if (i==x || i==y) cout << '^'  << ' ';
 		else              cout << ' '  << ' ';
 	cout << flush;
-	usleep(1.0/4*pow(10,6));
+	usleep(pow(10,6));
 }
 
 int main() {
